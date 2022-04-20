@@ -1,0 +1,40 @@
+// Youtube__cont
+.Youtube__cont {
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    font-family: var(--kor_font);
+    color: var(--white);
+}
+.Youtube__inner {
+    margin: 0 auto;
+    width: 80%;
+    .Youtube__title {
+        font-size: 50px;
+        width: 50%;
+        float: left;
+    }
+    .video1 {
+        width: 50%;
+        height: 406px;
+        background: #fff;
+        margin-bottom: 80px;
+    }
+    .video2 {
+        width: 40%;
+        height: 366px;
+        float: left;
+    }
+    .Youtube__table {
+        width: 50%;
+        color: var(--white);
+        th {
+            text-align: center;
+            width: 20%;
+            display: inline-block;
+        }
+        td {
+            width: 80%;
+            display: inline-block;
+        }
+    }
+}
