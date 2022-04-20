@@ -27,7 +27,7 @@ function ScriptInfo({img, title, desc1, desc2}){
   )
 }
 
-const scriptContent = [ 
+const scriptContent = [
   {
     img : "img/Rectangle 244.jpg",
     title : "animationRequestFrame",
