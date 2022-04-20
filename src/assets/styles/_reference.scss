@@ -40,6 +40,10 @@
         font-size: 16px;
     }
 }
+// 애니메이션
+.Reference__inner {
+    opacity: 0;
+}
 .light.Reference__cont {
     background: var(--light_bg);
     .Reference__inner {

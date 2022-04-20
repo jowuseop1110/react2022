@@ -64,7 +64,7 @@
 //라이트 버전
 .light#header {
     background-color: #f0eeeb;
-    border-color: 1px solid #dad8d1;
+    border-bottom: 1px solid var(--light_border);
 
     a {
         color: #000;

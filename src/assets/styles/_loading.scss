@@ -1,6 +1,7 @@
 body {
   background: #000;
 }
+
 #loading.loading__active {
   opacity: 1;
   transition: all 1.6s;
@@ -14,6 +15,12 @@ body {
   height: 100%;
   background: var(--black);
   z-index: 9999;
+}
+#loading.light {
+  background: var(--light_bg);
+  .loading__text span {
+    color: var(--black);
+  }
 }
 .loading__text {
   position: absolute;
